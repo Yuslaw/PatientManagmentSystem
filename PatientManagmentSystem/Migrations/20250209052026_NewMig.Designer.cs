@@ -11,8 +11,8 @@ using PatientManagmentSystem.Infrastructure.Data;
 namespace PatientManagmentSystem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250209024522_Patient")]
-    partial class Patient
+    [Migration("20250209052026_NewMig")]
+    partial class NewMig
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
